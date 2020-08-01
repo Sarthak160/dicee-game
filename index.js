@@ -1,12 +1,12 @@
 // alert('working')
 var randno1 = Math.floor(Math.random() * 6) + 1;
-var randimg = __dirname +"images/" + "dice" + randno1 + ".png";  //= 
+var randimg =  "https://github.com/Sarthak160/dicee-game/blob/master/" + "dice" + randno1 + ".png"+"?raw=true";  //= 
 var img1 = document.querySelectorAll("img")[0];
 img1.setAttribute("src",randimg);
 
 // alert('working')
 var randno2 = Math.floor(Math.random() * 6) + 1;
-var randimg2 = __dirname + "images/" + "dice" + randno2 + ".png";
+var randimg2 =  "https://github.com/Sarthak160/dicee-game/blob/master/" + "dice" + randno2 + ".png"+"?raw=true";
 var img2 = document.querySelectorAll("img")[1];
 img2.setAttribute("src",randimg2);
 
